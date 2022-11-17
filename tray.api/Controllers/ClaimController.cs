@@ -40,10 +40,10 @@ namespace MyProject.WebAPI.Controllers
             return _claimRepository.Update(claim);
         }
         [HttpDelete]
-        public Claim Delete(int id)
-        {
-            return _claimRepository.Delete(id);
-        }
+        //public Claim Delete(int id)
+        //{
+        //    return _claimRepository.Delete(id);
+        //}
 
     }
 }
